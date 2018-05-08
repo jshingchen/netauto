@@ -1,0 +1,12 @@
+mgmt_ip: 10.0.0.1
+SDN_server:10.2.2.2
+vlan:
+  red:
+    id:10
+  blue:
+    id:20
+ports:
+  1: [10]
+  2: [20]
+  3: [10,20]
+auth_server:10.3.3.3
